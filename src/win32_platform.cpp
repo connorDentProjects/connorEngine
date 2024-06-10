@@ -1,6 +1,6 @@
 
 #include "platform.h"
-#include "schnitzel_lib.h"
+#include "dented_lib.h"
 
 #define WIN32_LEAN_AND_MEAN
 #define NOMINMAX

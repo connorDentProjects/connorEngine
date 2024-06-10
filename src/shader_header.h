@@ -1,7 +1,7 @@
 #ifdef ENGINE // Inside Game / Engine
 #pragma once
 
-#include "schnitzel_lib.h"
+#include "dented_lib.h"
 #define vec2 Vec2
 #define ivec2 IVec2
 #define vec4 Vec4

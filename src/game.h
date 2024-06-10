@@ -1,7 +1,7 @@
 #pragma once
 
 #include "input.h"
-#include "schnitzel_lib.h"
+#include "dented_lib.h"
 #include "sound.h"
 #include "render_interface.h"
 #include "ui.h"

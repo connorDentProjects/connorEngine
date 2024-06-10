@@ -1,4 +1,4 @@
-#include "schnitzel_lib.h"
+#include "dented_lib.h"
 
 #include "input.h"
 
@@ -98,7 +98,7 @@ int main()
     return -1;
   }
 
-  platform_create_window(1280, 720, "Schnitzel Motor");
+  platform_create_window(1280, 720, "dented_ Motor");
   platform_fill_keycode_lookup_table();
   platform_set_vsync(true);
   if(!platform_init_audio())

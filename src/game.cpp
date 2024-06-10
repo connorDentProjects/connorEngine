@@ -92,6 +92,12 @@ IRect get_solid_rect(Solid solid)
   return {solid.pos - sprite.size / 2, sprite.size};
 }
 
+
+//TODO: This entire function needs refactoring to improve readability
+//Split this up into the following and determine where each part needs to go
+//1) get user input
+//2) update game logic
+//3) update transforms drawn to screen
 void update_level(float dt)
 {
   if(just_pressed(PAUSE))
@@ -652,6 +658,9 @@ void simulate()
 // #############################################################################
 //                           Game Functions(exposed)
 // #############################################################################
+
+//TODO: refactor this function to split up each section denoted by a comment
+//into it's own function call
 EXPORT_FN void update_game(GameState* gameStateIn, 
                            RenderData* renderDataIn, 
                            Input* inputIn, 

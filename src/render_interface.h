@@ -2,7 +2,7 @@
 
 #include "assets.h"
 #include "shader_header.h"
-#include "schnitzel_lib.h"
+#include "dented_lib.h"
 
 
 // #############################################################################

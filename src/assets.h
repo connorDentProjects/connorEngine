@@ -1,6 +1,6 @@
 #pragma once
 
-#include "schnitzel_lib.h"
+#include "dented_lib.h"
 
 // #############################################################################
 //                           Assets Constants
@@ -39,6 +39,9 @@ Sprite get_sprite(SpriteID spriteID)
   Sprite sprite = {};
   sprite.frameCount = 1;
 
+  //TODO: break this out into its own function and find way to automate this
+  //This needs some way to iterate over the pixels in the texture file to quickly know
+  //  where a given sprite is actually located
   switch(spriteID)
   {
     case SPRITE_WHITE:
